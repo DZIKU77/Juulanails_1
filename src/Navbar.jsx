@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center bg-white/10 backdrop-blur-md p-5 border-b border-white/20">
+    <nav className="flex justify-between items-center bg-white/10 backdrop-blur-md p-5 border-b border-white/20 absolute top-0">
       {/* Lewa strona - Logo / Nazwa strony */}
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 rounded-full bg-pink-400"></div> {/* Różowe kółko jako placeholder logo */}
