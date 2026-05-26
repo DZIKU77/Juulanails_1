@@ -12,13 +12,13 @@ function Navbar() {
           Home
         </a>
         <a href="#" className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors">
-          Gallery
+          Galeria
         </a>
         <a href="#" className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors">
-          Offer
+          Oferta
         </a>
         <a href="#" className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors">
-          Contact
+          Kontakt
         </a>
       </div>
     </nav>
