@@ -9,16 +9,16 @@ function Navbar({ setCurrentScreen }) {
       </div>
 
       <div className="flex gap-6">
-        <button type="button" onClick={() => setCurrentScreen('home')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors">
+        <button type="button" onClick={() => setCurrentScreen('home')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
           Home
         </button>
-        <button type="button" onClick={() => setCurrentScreen('gallery')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors">
+        <button type="button" onClick={() => setCurrentScreen('gallery')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
           Galeria
         </button>
-        <button type="button" onClick={() => setCurrentScreen('offer')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors">
+        <button type="button" onClick={() => setCurrentScreen('offer')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
           Oferta
         </button>
-        <button type="button" onClick={() => setCurrentScreen('contact')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors">
+        <button type="button" onClick={() => setCurrentScreen('contact')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
           Kontakt
         </button>
       </div>

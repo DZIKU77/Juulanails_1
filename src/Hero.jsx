@@ -19,20 +19,39 @@ function Hero() {
             </div>
             <h2 className="font-['Dynalight',fantasy] text-center text-7xl ml-10">Piękno w twoich dłoniach</h2>
             <div className="flex gap-25 mt-10 ml-45">
-                <div className="flex flex-col gap-10">
-                    <img src={diamond} alt="" className="w-25"/>
-                    <p className="text-2xl uppercase text-center">stylizacja <br /> paznokci</p>
+            <div className="flex items-center justify-center gap-16 mt-10 w-full -ml-20">
+                
+                {/* Sektor 1 */}
+                <div className="flex flex-col items-center gap-3 w-48">
+                    <img src={diamond} alt="" className="w-20 h-20 object-contain"/>
+                    <p className="text-xl font-medium uppercase text-center tracking-wider leading-tight">
+                        stylizacja <br /> paznokci
+                    </p>
                 </div>
-                <div className="w-1 h-40 rounded-2xl bg-black mt-5"></div>
-                <div className="flex flex-col gap-10">
-                    <img src={manicure} alt="" className="w-25"/>
-                    <p className="text-2xl uppercase text-center">manicure <br />klasyczny</p>
+                
+                {/* Ściana rozdzielająca 1 */}
+                <div className="w-1 h-32 bg-black rounded-full shrink-0"></div>
+                
+                {/* Sektor 2 */}
+                <div className="flex flex-col items-center gap-3 w-48">
+                    <img src={manicure} alt="" className="w-20 h-20 object-contain"/>
+                    <p className="text-xl font-medium uppercase text-center tracking-wider leading-tight">
+                        manicure <br /> klasyczny
+                    </p>
                 </div>
-                <div className="w-1 h-40 rounded-2xl bg-black"></div>
-                <div className="flex flex-col gap-10">
-                    <img src={service} alt="" className="w-25"/>
-                    <p className="text-2xl uppercase text-center">indywidualne <br /> podejscie</p>
+                
+                {/* Ściana rozdzielająca 2 */}
+                <div className="w-1 h-32 bg-black rounded-full shrink-0"></div>
+                
+                {/* Sektor 3 */}
+                <div className="flex flex-col items-center gap-3 w-48">
+                    <img src={service} alt="" className="w-20 h-20 object-contain"/>
+                    <p className="text-xl font-medium uppercase text-center tracking-wider leading-tight">
+                        indywidualne <br /> podejście
+                    </p>
                 </div>
+
+            </div>
             </div>
         </section>
     );
