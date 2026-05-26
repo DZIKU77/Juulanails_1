@@ -1,11 +1,13 @@
 import Navbar from './Navbar.jsx';
+import Hero from "./Hero.jsx"
 
 function App() {
 
   return (
     <>
-      <div className=''>
-        <Navbar />
+      <Navbar />
+      <div className='w-screen pt-24'>
+        <Hero />
       </div>
       
     </>

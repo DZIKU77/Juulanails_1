@@ -1,7 +1,6 @@
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center bg-white/10 backdrop-blur-md p-5 border-b border-white/20 absolute top-0">
-      {/* Lewa strona - Logo / Nazwa strony */}
+    <nav className="flex justify-between items-center bg-white/10 backdrop-blur-md p-5 border-0 w-full fixed top-0 z-50">      {/* Lewa strona - Logo / Nazwa strony */}
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 rounded-full bg-pink-400"></div> {/* Różowe kółko jako placeholder logo */}
         <span className="text-black font-bold tracking-wider uppercase text-sm">Juula Nails</span>
