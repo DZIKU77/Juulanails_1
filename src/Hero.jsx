@@ -7,7 +7,7 @@ import service from "./assets/hand-holding-heart.png"
 
 function Hero() {
     return(
-        <section className=" pt-30 font-serif flex flex-col pb-60" id="home">
+        <section className=" pt-30 font-serif flex flex-col pb-49 border-b-2 border-pink-400" id="home">
             <img src={hero_1} alt="" className="absolute right-0 -top-5 opacity-70 -z-10"/>
             <img src={hero_2} alt=""  className="w-1/3 absolute top-0 left-0 opacity-70 -z-10"/>
             <div className="text-center -mb-120">

@@ -12,7 +12,7 @@ function Gallery() {
 
     return (
         <section id="gallery" className="relative">
-            <img src={gallery1} alt="" className="absolute right-2 -top-34 -z-50" />
+            <img src={gallery1} alt="" className="absolute right-2 -top-23 -z-50" />
             
             <div className="flex flex-row items-start gap-10">
                 
