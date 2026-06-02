@@ -1,3 +1,5 @@
+import contact from "./ContactForm"
+
 function Navbar() {
   return (
     <nav className="flex justify-between items-center bg-white/10 backdrop-blur-md p-5 border-0 w-full fixed top-0 z-50">      {/* Lewa strona - Logo / Nazwa strony */}
@@ -16,6 +18,7 @@ function Navbar() {
         <a href="#offer" className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
           Oferta
         </a>
+        <button type="button" onClick={() => setCurrentScreen('contact')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
         <a 
           href="/kontakt" 
           target="_blank" 
@@ -24,6 +27,7 @@ function Navbar() {
         >
           Kontakt
         </a>
+        </button>
       </div>
     </nav>
   )
