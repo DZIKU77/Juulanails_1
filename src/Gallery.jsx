@@ -11,7 +11,7 @@ function Gallery() {
     const prevPage = () => setCurrentPage(1);
 
     return (
-        <section id="gallery" className="relative">
+        <section id="gallery" className="relative h-screen">
             <img src={gallery1} alt="" className="absolute right-2 -top-23 -z-50" />
             
             <div className="flex flex-row items-start gap-10">

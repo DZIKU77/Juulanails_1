@@ -15,7 +15,7 @@ function Navbar({ setCurrentScreen }) {
         <a href="#gallery" className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
           Galeria
         </a>
-        <a href="#" className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
+        <a href="#offer" className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
           Oferta
         </a>
         <button type="button" onClick={() => setCurrentScreen('contact')} className="uppercase text-xs font-semibold text-black hover:text-pink-500 transition-colors duration-300 ease-in-out">
